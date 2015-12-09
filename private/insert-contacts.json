@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Alfredo Rifat",
+        "slug": "Alfredo Rifat",
+        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    },
+    {
+        "name": "Abraham Paulsen",
+        "slug": "Abraham Paulsen",
+        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "phone": "+5696633399",
+        "email": "contacto@contact.coma",
+        "status": "initial"
+    },
+    {
+        "name": "Gonzalo Valente",
+        "slug": "Gonzalo Valente",
+        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "phone": "+5696633399",
+        "email": "contacto@contact.comSocial",
+        "status": "initial"
+    },
+    {
+        "name": "Adam Aguirre",
+        "slug": "Adam Aguirre",
+        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    },
+    {
+        "name": "Adela Gomez",
+        "slug": "Adela Gomez",
+        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    }
+]

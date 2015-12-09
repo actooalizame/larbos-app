@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Alfredo Rifat",
+        "slug": "Alfredo Rifat",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Medicina",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": false
+    },
+    {
+        "name": "Abraham Paulsen",
+        "slug": "Abraham Paulsen",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Geografía",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": true
+    },
+    {
+        "name": "Abraham Paulsen",
+        "slug": "Abraham Paulsen",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Trabajo Social",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": true
+    },
+    {
+        "name": "Adam Aguirre",
+        "slug": "Adam Aguirre",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Química",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": false
+    },
+    {
+        "name": "Adela Gomez",
+        "slug": "Adela Gomez",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Derecho",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": false
+    },
+    {
+        "name": "Adolfo Wegmann",
+        "slug": "Adolfo Wegmann",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Derecho",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": false
+    },
+    {
+        "name": "Adriana Fischer",
+        "slug": "Adriana Fischer",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Música",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": false
+    },
+    {
+        "name": "Adriana Vergara",
+        "slug": "Adriana Vergara",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Comunicaciones",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": true
+    },
+    {
+        "name": "Adriana Vergara",
+        "slug": "Adriana Vergara",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Educación",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": true
+    },
+    {
+        "name": "Ady Giordano",
+        "slug": "Ady Giordano",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Química",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": false
+    },
+    {
+        "name": "Agustín Letelier",
+        "slug": "Agustin Letelier",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Historia",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": true
+    },
+    {
+        "name": "Agustín Letelier",
+        "slug": "Agustin Letelier",
+        "schoolId": "p6LXH47DSAKfvgnjZ",
+        "schoolName": "Universidad de Chile",
+        "department": "Letras",
+        "ratedBy": [],
+        "voted": false,
+        "overall": 0,
+        "multiple": true
+    }
+]
