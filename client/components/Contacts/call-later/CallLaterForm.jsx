@@ -28,7 +28,7 @@ CallLaterForm = React.createClass({
     }
 
     Meteor.call('insertReminder', data);
-    Meteor.call('setHasReminder', data.contactId);
+    //Meteor.call('setHasReminder', data.contactId);
     FlowRouter.go('/mis-contactos');
   },
 

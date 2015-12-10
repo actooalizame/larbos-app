@@ -75,23 +75,27 @@ mixins: [ReactMeteorData],
 		return(
 			<div>
         <div className="row">
-          <div className="col-sm-5">
+          <div className="col-sm-12">
+            <h3>Recordatorios</h3>
+            <div className="input-group date">
+              <span className="input-group-addon" onClick={this.cleanInput}><i className="glyphicon glyphicon-remove-sign"></i></span><input type="text" ref="calendar" className="form-control" placeholder="Seleccionar Dia" /><span className="input-group-addon" onClick={this.setDate}>Buscar</span>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <div className="row">
+          <div className="col-sm-12">
             <div className="btn-group" role="group" aria-label="...">
               <button type="button" className="btn btn-default" onClick={this.setToday}>Hoy</button>
               <button type="button" className="btn btn-default" onClick={this.setTomorrow}>Mañana</button>
             </div>
           </div>
-          <div className="col-sm-7">
-            <div className="input-group date">
-              <span className="input-group-addon" onClick={this.cleanInput}><i className="glyphicon glyphicon-remove-sign"></i></span><input type="text" ref="calendar" className="form-control" placeholder="Seleccionar Dia" /><span className="input-group-addon" onClick={this.setDate}>Buscar</span>
-            </div>
-          </div>
-         
         </div>
+       
         {this.state.getDay==='Hoy'||this.state.getDay==='Mañana' ? 
-          <h3>Recordatorios para: {this.state.getDay}</h3>
+          <h4>Para: {this.state.getDay}</h4>
           :
-          <h3>Recordatorios {this.state.getStatus} para: {this.state.displayCalendarDate}</h3>
+          <h4>Para: {this.state.displayCalendarDate}</h4>
         }
 
 				{this.getContactReminders()}

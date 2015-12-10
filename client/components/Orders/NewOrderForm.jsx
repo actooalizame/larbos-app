@@ -6,7 +6,7 @@ NewOrderForm = React.createClass({
 				data = {
 			contactId: this.props.contact._id,
 			contactName: this.props.contact.name,
-			day: moment(date).format('l')
+			day: moment(date).format('DD/MM/YY')
 		}
     Meteor.call('createOrder', data);
   },

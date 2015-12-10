@@ -2,7 +2,7 @@
     {
         "name": "Alfredo Rifat",
         "slug": "Alfredo Rifat",
-        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "assignedTo": "C9FsB99wktXgXZHq8",
         "phone": "+5696633399",
         "email": "contacto@contact.com",
         "status": "initial"
@@ -10,7 +10,7 @@
     {
         "name": "Abraham Paulsen",
         "slug": "Abraham Paulsen",
-        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "assignedTo": "C9FsB99wktXgXZHq8",
         "phone": "+5696633399",
         "email": "contacto@contact.coma",
         "status": "initial"
@@ -18,7 +18,7 @@
     {
         "name": "Gonzalo Valente",
         "slug": "Gonzalo Valente",
-        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "assignedTo": "C9FsB99wktXgXZHq8",
         "phone": "+5696633399",
         "email": "contacto@contact.comSocial",
         "status": "initial"
@@ -26,7 +26,7 @@
     {
         "name": "Adam Aguirre",
         "slug": "Adam Aguirre",
-        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "assignedTo": "C9FsB99wktXgXZHq8",
         "phone": "+5696633399",
         "email": "contacto@contact.com",
         "status": "initial"
@@ -34,9 +34,42 @@
     {
         "name": "Adela Gomez",
         "slug": "Adela Gomez",
-        "assignedTo": "rFy7hoKxgjYEHvCJp",
+        "assignedTo": "C9FsB99wktXgXZHq8",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    },
+    {
+        "name": "Mauricio Macri",
+        "slug": "Mauricio Macri",
+        "assignedTo": "C9FsB99wktXgXZHq8",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    },
+    {
+        "name": "Cristina Kirchner",
+        "slug": "Cristina Kirchner",
+        "assignedTo": "C9FsB99wktXgXZHq8",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    },
+    {
+        "name": "Nestor Kirchner",
+        "slug": "Nestor Kirchner",
+        "assignedTo": "C9FsB99wktXgXZHq8",
+        "phone": "+5696633399",
+        "email": "contacto@contact.com",
+        "status": "initial"
+    },
+    {
+        "name": "Patricia Bullrich",
+        "slug": "Patricia Bullrich",
+        "assignedTo": "C9FsB99wktXgXZHq8",
         "phone": "+5696633399",
         "email": "contacto@contact.com",
         "status": "initial"
     }
+
 ]
