@@ -35,8 +35,11 @@ Meteor.methods({
   'insertReminder': function(data){
     Reminders.insert({
       contactId: data.contactId,
+      contactName: data.contactName,
       hour: data.hours,
       minutes: data.minutes,
+      day: data.day,
+      userId: Meteor.userId(),
       changed: new Date()
     });
   },

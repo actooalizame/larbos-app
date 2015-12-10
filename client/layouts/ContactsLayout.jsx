@@ -13,12 +13,12 @@ ContactsLayout = React.createClass({
 				</div>
 				<hr/>
 				<div className="row">
-					<div className="col-sm-3">
-						<CallLaterContacts />
+					<div className="col-sm-4">
+						<UserReminders />
 						<hr/>
 						<UnAnswered />
 					</div>
-					<div className="col-sm-5">
+					<div className="col-sm-4">
 						<InitialContacts />
 					</div>
 					<div className="col-sm-4">

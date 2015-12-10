@@ -16,6 +16,19 @@ Meteor.publish('hasReminder', function() {
 	return Contacts.find({status:'hasReminder',assignedTo:userId});
 });
 
+Meteor.publish('userReminders', function(){
+	var user = Meteor.users.findOne({_id:this.userId}),
+			userId = user._id;
+	return Reminders.find({userId:userId});
+});
+
+Meteor.publish('userRemindersDate', function(date){
+	var user = Meteor.users.findOne({_id:this.userId}),
+			userId = user._id;
+	return Reminders.find({userId:userId,day:date});
+});
+
+
 
 Meteor.publish('hasOrders', function() {
 	var user = Meteor.users.findOne({_id:this.userId}),
@@ -41,7 +54,7 @@ Meteor.publish('orderProducts', function(orderId){
 	return Products.find({orderId:orderId});
 });
 
-Meteor.publish('userOrders', function(contactId){
+Meteor.publish('userOrders', function(){
 	var user = Meteor.users.findOne({_id:this.userId}),
 			userId = user._id;
 	return Orders.find({userId:userId});
