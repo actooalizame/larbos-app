@@ -1,18 +1,5 @@
 HomeNav = React.createClass({
 
-	/*mixins: [ReactMeteorData],
-
-	getMeteorData(){
-		return {
-			currentUser: Meteor.user()
-		};
-	},
-
-	userName(){
-  	return (
-  		<span>As: {this.data.currentUser.username}!</span>
-  		)
-	},*/
 
 	render(){
 		return(

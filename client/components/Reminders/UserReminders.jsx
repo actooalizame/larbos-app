@@ -1,7 +1,7 @@
 UserReminders = React.createClass({
 
 componentDidMount(){
-  jQuery('.input-group.date').datepicker({
+  jQuery('.date').datepicker({
     language: 'es',
     daysOfWeekDisabled: '0',
     autoclose: true

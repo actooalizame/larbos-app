@@ -9,7 +9,7 @@ ContactsLayout = React.createClass({
 						<OnCallContact />
 					</div>
 					<div className="col-sm-5">
-						<Search />
+						<NewSearch />
 					</div>
 				</div>
 				<hr/>

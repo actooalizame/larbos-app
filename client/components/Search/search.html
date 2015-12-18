@@ -1,13 +1,19 @@
 <template name="searchBox">
 	<div class="box-container">
 		<div class="form-group">
-		{{> EasySearch.FieldInput field="name" event="enter" attributes=inputAttributes index=contactsIndex }}
+		{{> EasySearch.Input field="name" attributes=inputAttributes index=contactsIndex }}
 	  </div>
-	  <ul class="list-group searchResults hidden">
-	    {{#EasySearch.Each index=contactsIndex }}
-	    <li class="list-group-item"><h4><a href="/cliente/{{_id}}">{{name}}</a></h4></li>
-	    {{/EasySearch.Each}}
-	  </ul>
+	  {{#EasySearch.IfInputEmpty index=contactsIndex}}
+		  {{else}}
+		  	{{#if contactsIndex}}
+		  		<ul class="list-group searchResults">
+				    {{#EasySearch.Each index=contactsIndex }}
+				    <li class="list-group-item"><h4><a href="/cliente/{{_id}}">{{name}}</a></h4></li>
+				    {{/EasySearch.Each}}
+				  </ul>
+		  	{{/if}}
+		{{/EasySearch.IfInputEmpty}}
+	  
 
 	  <div class="searchResults">
 	  	{{#EasySearch.IfNoResults index=contactsIndex}}

@@ -1,7 +1,7 @@
 UserOrders = React.createClass({
 
 componentDidMount(){
-  jQuery('.input-group.date').datepicker({
+  jQuery('.date').datepicker({
     language: 'es',
     daysOfWeekDisabled: '0',
     autoclose: true
@@ -62,13 +62,17 @@ mixins: [ReactMeteorData],
       getDay: 'Ayer'
     });
   },
+  hideCalendar(){
+    return $('.datepicker').hide();
+  },
+
   setDate(){
     let calendarInput = ReactDOM.findDOMNode(this.refs.calendar).value;
     this.setState({
       getDay: 'calendarDate',
       displayCalendarDate: calendarInput
     });
-    jQuery('.input-group.date').datepicker('hide');
+    this.hideCalendar();
   },
   setPending() {
     this.setState({
@@ -94,7 +98,7 @@ mixins: [ReactMeteorData],
   },
 
   cleanInput(){
-    jQuery('.input-group.date').datepicker('hide');
+    this.hideCalendar();
     ReactDOM.findDOMNode(this.refs.calendar).value = '';
   },
 

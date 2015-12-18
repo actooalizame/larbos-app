@@ -8,6 +8,7 @@ ul.product-list {
 
 ul.searchResults {
 	list-style-type: none;
+	z-index: 10;
 }
 
 .box-container {
@@ -24,6 +25,10 @@ ul.searchResults {
     position: absolute;
     top: 9px;
     left: -320%;
+}
+
+ul.navbar-right {
+	margin-top: 1em;
 }
 
 body::-webkit-scrollbar { 
