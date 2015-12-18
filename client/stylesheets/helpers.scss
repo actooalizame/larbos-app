@@ -20,6 +20,11 @@ ul.searchResults {
   top: 33px;
 }
 
+#login-dropdown-list {
+    position: absolute;
+    top: 9px;
+    left: -320%;
+}
 
 body::-webkit-scrollbar { 
     display: none; 

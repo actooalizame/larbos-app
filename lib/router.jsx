@@ -8,7 +8,7 @@ FlowRouter.route('/', {
 FlowRouter.route('/mis-contactos', {
 	name: 'contactList',
 	action(){
-		ReactLayout.render(MainLayout, {content: <ContactsLayout  />});
+		ReactLayout.render(MainLayout, {content: <UserLayout  />});
 	}
 });
 

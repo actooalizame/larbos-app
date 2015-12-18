@@ -2,7 +2,7 @@ LoginRoot = React.createClass({
 	render(){
 		return(
 			<div>
-				<AccountsUIWrapper />
+				<React.BlazeView template="loginButtons" />
 			</div>
 			)
 	}

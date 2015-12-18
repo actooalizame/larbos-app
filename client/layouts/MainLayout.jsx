@@ -1,11 +1,5 @@
 MainLayout = React.createClass({
 
-	mixins: [ReactMeteorData],
-	getMeteorData(){
-		return {
-			currentUser: Meteor.user()
-		}
-	},
 
 	render(){
 		return(
@@ -13,9 +7,9 @@ MainLayout = React.createClass({
 				<HomeNav />
 
 				<div className="container">
-					{this.data.currentUser ? 
-						this.props.content : <LoginRoot />
-					}
+					
+						{this.props.content}
+			
 					
 				</div>
 			</div>

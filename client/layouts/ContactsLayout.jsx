@@ -2,6 +2,7 @@ ContactsLayout = React.createClass({
 
 	render(){
 		return(
+
 			<div>
 				<div className="row">
 					<div className="col-sm-3">

@@ -1,6 +1,6 @@
 HomeNav = React.createClass({
 
-	mixins: [ReactMeteorData],
+	/*mixins: [ReactMeteorData],
 
 	getMeteorData(){
 		return {
@@ -12,7 +12,7 @@ HomeNav = React.createClass({
   	return (
   		<span>As: {this.data.currentUser.username}!</span>
   		)
-	},
+	},*/
 
 	render(){
 		return(
@@ -26,7 +26,7 @@ HomeNav = React.createClass({
 			        <span className="icon-bar"></span>
 			        <span className="icon-bar"></span>
 			      </button>
-			      <a className="navbar-brand" href="/mis-contactos">Brand</a>
+			      <a className="navbar-brand" href="/mis-contactos">Larbos - Callcenter</a>
 			    </div>
 
 			   

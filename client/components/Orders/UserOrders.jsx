@@ -18,22 +18,22 @@ mixins: [ReactMeteorData],
 
   getMeteorData(){
   	let query = {},
-  			userId = Meteor.user()._id;
+  			userId = Meteor.userId();
   			orderStatus = this.state.getStatus,
         orderDate = this.state.getDay,
         today = moment(new Date()).format('DD/MM/YY'),
         yesterday = moment(new Date()).add(-1, 'days').format('DD/MM/YY');
 
     if(orderDate==='Hoy'){
-      Meteor.subscribe('userOrdersDate',userId,today);
+      Meteor.subscribe('userOrdersDate',today);
     }
     if(orderDate==='Ayer'){
-      Meteor.subscribe('userOrdersDate',userId,yesterday);
+      Meteor.subscribe('userOrdersDate',yesterday);
     }
     if(orderDate==='calendarDate'){
       let calendarInput = ReactDOM.findDOMNode(this.refs.calendar).value,
           calendarDay = moment(new Date(calendarInput)).format('DD/MM/YY');
-      Meteor.subscribe('userOrdersDate',userId,calendarDay);
+      Meteor.subscribe('userOrdersDate',calendarDay);
     }
     if (orderStatus==='pendientes') {
       query = {userId:userId,status: 'Pendiente'};

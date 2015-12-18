@@ -60,7 +60,7 @@ Meteor.publish('userOrders', function(){
 	return Orders.find({userId:userId});
 });
 
-Meteor.publish('userOrdersDate', function(contactId,date){
+Meteor.publish('userOrdersDate', function(date){
 	var user = Meteor.users.findOne({_id:this.userId}),
 			userId = user._id;
 	return Orders.find({userId:userId,day:date});

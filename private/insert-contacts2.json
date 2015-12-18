@@ -1,0 +1,35 @@
+[
+	{
+    "name": "Mauricio Macri",
+    "slug": "Mauricio Macri",
+    "assignedTo": "JnXhd6bsbgaza35Ga",
+    "phone": "+5696633399",
+    "email": "contacto@contact.com",
+    "status": "initial"
+  },
+  {
+    "name": "Cristina Kirchner",
+    "slug": "Cristina Kirchner",
+    "assignedTo": "JnXhd6bsbgaza35Ga",
+    "phone": "+5696633399",
+    "email": "contacto@contact.com",
+    "status": "initial"
+  },
+  {
+    "name": "Nestor Kirchner",
+    "slug": "Nestor Kirchner",
+    "assignedTo": "JnXhd6bsbgaza35Ga",
+    "phone": "+5696633399",
+    "email": "contacto@contact.com",
+    "status": "initial"
+  },
+  {
+    "name": "Patricia Bullrich",
+    "slug": "Patricia Bullrich",
+    "assignedTo": "JnXhd6bsbgaza35Ga",
+    "phone": "+5696633399",
+    "email": "contacto@contact.com",
+    "status": "initial"
+  }
+
+]

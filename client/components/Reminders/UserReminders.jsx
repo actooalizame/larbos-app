@@ -17,7 +17,7 @@ mixins: [ReactMeteorData],
 
   getMeteorData(){
   	let query = {},
-  			userId = Meteor.user()._id;
+  			userId = Meteor.userId(),
         reminderDate = this.state.getDay,
         today = moment(new Date()).format('DD/MM/YY'),
         tomorrow = moment(new Date()).add(+1, 'days').format('DD/MM/YY');
@@ -53,10 +53,11 @@ mixins: [ReactMeteorData],
     });
   },
   setDate(){
-    let calendarInput = ReactDOM.findDOMNode(this.refs.calendar).value;
+    let calendarInput = ReactDOM.findDOMNode(this.refs.calendar).value,
+        calendarDay = moment(new Date(calendarInput)).format('DD/MM/YY');
     this.setState({
       getDay: 'calendarDate',
-      displayCalendarDate: calendarInput
+      displayCalendarDate: calendarDay
     });
     jQuery('.input-group.date').datepicker('hide');
   },
